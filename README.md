@@ -28,9 +28,13 @@ grayscale conversion, brightness and contrast adjustment, and histogram analysis
 
 
 ├── main.py       # Main application logic
+
 ├── design.py     # Generated PyQt interface file
+
 ├── design.ui     # GUI layout created with Qt Designer
+
 └── README.md     # Project documentation
+
 
 
 ## How to Run the Application
