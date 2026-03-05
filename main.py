@@ -105,11 +105,11 @@ class DesignWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.ColorHist.setScaledContents(True)
 
     def getContrast(self):
-        c = self.Contrast.text().strip()  # enlève espaces avant/après
+        c = self.Contrast.text().strip() 
         if not c:
             return 1.0
         try:
-            return float(c.replace(',', '.'))  # accepte 1,8 → 1.8
+            return float(c.replace(',', '.'))
         except:
             return 1.0
 
@@ -118,7 +118,7 @@ class DesignWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         if not b:
             return 0
         try:
-            return int(float(b))  # accepte 60.0 → 60
+            return int(float(b))
         except:
             return 0
 
